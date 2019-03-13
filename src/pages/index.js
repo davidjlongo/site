@@ -57,7 +57,7 @@ const IndexPage = ({data}) => (
       <h1>About Me</h1>
       <Flex alignItems='center' flexDirection='column'>
         <Box px={2} width={[ 1 , 1 / 2 ]}>
-          <p>Currently, I am working as a Senior Cloud Architect at <Link to='https://missioncloud.com'>Mission Cloud</Link>, helping our customers with various problems related to doing business in the cloud. I am a serverless and modern application consultant and continuously find ways to help my clients unlock value by switching from old school development methodologies to modern approaches. Riding my mountain bike is what I do for fun.</p>
+          <p>Currently, I am studying Biology at <Link to='https://harvard.edu'>Harvard University</Link> and Artificial Intelligence at <Link to='https://stanford.edu'>Stanford University</Link>. I studied network structure and epidemic dynamics in undergrad. I ran a music production business for almost a decade before making the switch to medicine and technology. Now I'm searching for the next paradigm shift at the intersection of medicine and technology.</p>
         </Box>
       </Flex>
     </Section>
@@ -77,14 +77,14 @@ const IndexPage = ({data}) => (
       <SectionTitle>My Education</SectionTitle>
       <Educations edges={data.allEducationJson.edges} />
     </Section>
-    <Section id="contact" dark>
+    {/*}<Section id="contact" dark>
       <SectionTitle>Contact Me</SectionTitle>
       <Flex alignItems='center' flexDirection='column'>
         <Box px={2} width={[ 1 , 1 / 2 ]}>
           <ContactForm />
         </Box>
       </Flex>
-    </Section>
+    </Section>*/}
   </Layout>
 )
 
@@ -132,7 +132,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    hero: allImageSharp(filter:{original:{src:{regex:"/golden-gate/"}}}) {
+    hero: allImageSharp(filter:{original:{src:{regex:"/heart-hero/"}}}) {
       edges {
         node {
           id

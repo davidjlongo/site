@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Aleksander Hansson',
+    title: 'David Longo',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -31,8 +31,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Aleksander Hansson',
-        short_name: 'ahansson.com',
+        name: 'David Longo',
+        short_name: 'weareallicarus.io',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',

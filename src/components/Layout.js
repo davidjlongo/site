@@ -107,7 +107,7 @@ const Layout = ({ children, noMenu }) => (
             {children}
           <Footer>
             <FooterText>
-              ahansson.com
+              weareallicarus.io
             </FooterText>
           </Footer>
         </Body>

@@ -23,7 +23,7 @@ export default NotFoundPage
 
 export const pageQuery = graphql`
   query notFoundQuery {
-    hero: allImageSharp(filter:{original:{src:{regex:"/golden-gate/"}}}) {
+    hero: allImageSharp(filter:{original:{src:{regex:"/heart-hero/"}}}) {
       edges {
         node {
           id

@@ -31,20 +31,20 @@ class HeroText extends React.Component {
     } else {
       return (
         <StyledTypist cursor={{show: false}} {...this.props}>
-          <strong key={1}>I</strong> Make Fast Web Apps
-          <Typist.Backspace count={19} delay={1000} />
-          <span key={2}> Architect Complex IT Systems</span>
-          <Typist.Backspace count={29} delay={1000} />
-          <span key={3}> Am Certified In Amazon Web Services & Google Cloud Platform</span>
+          <strong key={1}>I</strong> Curate Talent
+          <Typist.Backspace count={14} delay={1000} />
+          <span key={2}> Study Medicine</span>
+          <Typist.Backspace count={15} delay={1000} />
+          <span key={3}> Am Certified In Machine Learning and Artificial Intelligence</span>
           <Typist.Backspace count={60} delay={1000} />
-          <span key={4}> Live In The Bay Area</span>
+          <span key={4}> Live In Cambridge</span>
           <Typist.Delay ms={300} />
           <span key={5}>.</span>
           <Typist.Delay ms={600} />
           <span key={6}>.</span>
           <Typist.Delay ms={900} />
           <span key={7}>.</span>
-          <Typist.Backspace count={25} delay={10} />
+          <Typist.Backspace count={30} delay={10} />
           <strong key={8}>But Mostly I Just</strong> Do Awesome Stuff With Technology
        </StyledTypist>
       )
