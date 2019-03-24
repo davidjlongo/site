@@ -10,3 +10,5 @@ yarn-error.log
 # Environmental Variables
 .env
 .history
+
+davidjlongo.code-workspace
