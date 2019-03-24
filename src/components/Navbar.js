@@ -84,6 +84,11 @@ const NavBar = (props) => (
                 </MenuItem>
               </li>
             ))}
+            <li key="blog">
+              <a href="https://blog.davidjlongo.com">
+                <MenuItem aria-label="Blog">Blog</MenuItem>
+              </a>
+            </li>
           </ul>
         </MenuBox>
       ):(
