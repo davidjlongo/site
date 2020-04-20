@@ -37,7 +37,7 @@ class HeroText extends React.Component {
           <Typist.Backspace count={15} delay={1000} />
           <span key={3}> Am Certified In Machine Learning and Artificial Intelligence</span>
           <Typist.Backspace count={60} delay={1000} />
-          <span key={4}> Live In Cambridge</span>
+          <span key={4}> Live In New York City</span>
           <Typist.Delay ms={300} />
           <span key={5}>.</span>
           <Typist.Delay ms={600} />
